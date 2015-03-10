@@ -32,7 +32,7 @@ function viewModel() {
 	self.sellAmount = ko.observable(100);
 	self.buyAmount = ko.computed(function(){
 		var amount = 0
-		if (self.selling() && self.buying() && self.sellAmount()) {
+		if (self.selling() && self.buying() && self.sellAmount() && self.sellAmount() > 0) {
 			amount = self.sellAmount() / self.selling().rate * self.buying().rate;
 			amount = Math.round(amount * 100) / 100
 		}
