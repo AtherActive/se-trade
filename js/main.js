@@ -12,8 +12,6 @@ prices = [
 	{"name": "Platinum Ore", "type": "raw", "rate": 20},
 	{"name": "Uranium Ore", "type": "raw", "rate": 44},
 	{"name": "Ice", "type": "raw", "rate": 600},
-	
-
 	{"name": "Gravel", "type": "refined", "rate": 279},
 	{"name": "Iron Ingot", "type": "refined", "rate": 350},
 	{"name": "Nickel Ingot", "type": "refined", "rate": 8},
