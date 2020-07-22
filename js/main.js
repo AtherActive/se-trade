@@ -1,8 +1,8 @@
 var prices, vm;
 
 prices = [
-	{"name": "Stone", "type": "raw", "rate": 310},
-	{"name": "Iron Ore", "type": "raw", "rate": 500},
+	{"name": "Stone", "type": "raw", "rate": 500},
+	{"name": "Iron Ore", "type": "raw", "rate": 410},
 	{"name": "Nickel Ore", "type": "raw", "rate": 20},
 	{"name": "Cobalt Ore", "type": "raw", "rate": 22},
 	{"name": "Magnesium Ore", "type": "raw", "rate": 24},
@@ -11,7 +11,7 @@ prices = [
 	{"name": "Gold Ore", "type": "raw", "rate": 20},
 	{"name": "Platinum Ore", "type": "raw", "rate": 20},
 	{"name": "Uranium Ore", "type": "raw", "rate": 44},
-	{"name": "Ice", "type": "raw", "rate": 500},
+	{"name": "Ice", "type": "raw", "rate": 430},
 	
 	{"name": "Gravel", "type": "refined", "rate": 279},
 	{"name": "Iron Ingot", "type": "refined", "rate": 350},
